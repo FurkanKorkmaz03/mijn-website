@@ -1,0 +1,120 @@
+html,
+body {
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #113743;
+  height: 100%;
+  width: 100%;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: #587e8c;
+}
+
+.blauwgrijs {
+  color: #587e8c;
+}
+
+span {
+  color: red;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #587e8c;
+  --bs-btn-border-color: #587e8c;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #113743;
+  --bs-btn-hover-border-color: #113743;
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #113743;
+  --bs-btn-active-border-color: #113743;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #587e8c;
+  --bs-btn-disabled-border-color: #587e8c
+}
+
+:root {
+  --donkerblauw: #1d3557;   
+  --accent-bruin: #a67c52;  
+  --wit: #ffffff;           
+  --licht-grijs: #f8f9fa;
+}
+
+.navbar {
+  background-color: var(--wit) !important;
+  border-bottom: 2px solid var(--donkerblauw);
+  padding: 1rem 0;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--donkerblauw) !important;
+  letter-spacing: 1px;
+}
+
+.nav-link.active {
+  color: var(--accent-bruin) !important;
+}
+
+.bruin-accent {
+  color: var(--accent-bruin);
+}
+
+.wireframe-img {
+  border: 8px solid var(--licht-grijs);
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
+
+.border-wireframe {
+  border: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.border-wireframe:hover {
+  transform: scale(1.02);
+}
+
+.btn-custom {
+  background-color: var(--donkerblauw);
+  color: white;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: var(--accent-bruin);
+  color: white;
+}
+
+.btn-outline-custom {
+  border: 2px solid var(--donkerblauw);
+  color: var(--donkerblauw);
+  padding: 10px 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.btn-outline-custom:hover {
+  background-color: var(--donkerblauw);
+  color: white;
+}
+footer {
+  background-color: var(--licht-grijs);
+  color: var(--donkerblauw);
+  border-top: 1px solid #ddd;
+}
